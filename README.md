@@ -91,22 +91,6 @@ npm run build
 npm run preview
 ```
 
----  
-
-### ❌ `Cannot find module "header/Header"`
-🔹 Assure-toi d'avoir bien ajouté la déclaration dans **`shell/src/declarations.d.ts`** :
-
-```ts
-declare module "header/Header" {
-  const Header: React.ComponentType;
-  export default Header;
-}
-```
-
----  
-
-### ❌ Conflit de versions entre Webpack et Vite
-🔹 Supprime `node_modules` et réinstalle avec `--legacy-peer-deps` :
 
 ```bash
 rm -rf node_modules package-lock.json
