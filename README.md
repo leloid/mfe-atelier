@@ -37,16 +37,12 @@ Exécute les commandes suivantes pour chaque projet (`shell` et `header`) :
 
 ```bash
 cd shell
-rm -rf node_modules package-lock.json dist
-npm cache clean --force
 npm install --legacy-peer-deps --force
 cd ..
 ```
 
 ```bash
 cd header
-rm -rf node_modules package-lock.json dist
-npm cache clean --force
 npm install --legacy-peer-deps --force
 cd ..
 ```
@@ -81,23 +77,6 @@ npm run dev
 > 👉 **http://localhost:3000**  
 
 Si tout fonctionne correctement, l'application **`shell`** devrait afficher le composant **`Header`** provenant de `header`.
-
----  
-
-
-```bash
-cd header
-rm -rf dist
-npm run build
-npm run preview
-```
-
-
-```bash
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install --legacy-peer-deps
-```
 
 ---  
 
