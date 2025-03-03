@@ -1,5 +1,6 @@
 # mfe-atelier-lahcen-elouardi
 # 📦 Micro Frontend avec Module Federation (Vite + TypeScript)
+![Nom de l'image](image.png)
 
 Ce projet est une démonstration de l'architecture **Micro Frontend** en utilisant **Module Federation**, **Vite** et **React (TypeScript)**.  
 Il est composé de deux applications :  
