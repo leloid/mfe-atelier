@@ -1,4 +1,4 @@
-# mfe-atelier-lahcen-elouardi
+# mfe-atelier
 # 📦 Micro Frontend avec Module Federation (Vite + TypeScript)
 ![Nom de l'image](image.png)
 
@@ -28,8 +28,8 @@ npm -v
 
 ### 1️⃣ **Cloner le dépôt**
 ```bash
-git clone https://github.com/ton-github/mfe-atelier-lahcen-elouardi.git
-cd mfe-atelier-lahcen-elouardi
+git clone https://github.com/ton-github/mfe-atelier.git
+cd mfe-atelier
 ```
 
 ### 2️⃣ **Installer les dépendances**
@@ -86,7 +86,7 @@ Si tout fonctionne correctement, l'application **`shell`** devrait afficher le c
 📂 `header/` - Micro frontend exporté  
 
 ```
-mfe-atelier-lahcen-elouardi
+mfe-atelier
 │── shell/
 │   ├── src/
 │   │   ├── components/
